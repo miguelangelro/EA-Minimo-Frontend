@@ -1,27 +1,32 @@
-# EAMinimoFrontend
+<p align="right">
+   Viernes, 23 de Abril de 2021
+</p>
+<h1 align="center">Frontend</h3>
+<p>
+Ejercico de examen realizado por <a href="https://github.com/miguelangelro">Miguel Ángel Rincón</a> para la asignatura de  <a href="https://twitter.com/ea_eetac">Ingeniería de Aplicaciones</a> del grado en <a href="https://eetac.upc.edu/en/study/bachelors-deegrees/telematics-engineering-1">Ingeniería Telemática</a>.
+  </p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+## Descripción del proyecto
 
-## Development server
+El proyecto consta de dos partes, Backend y Frontend, los cuales están en repositorios diferentes. Aquí trataremos el lado del cliente y en el [Repositorio Backend](https://github.com/miguelangelro/EA-Minimo-Backend) trataremos la parte del servidor.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+En esta parte se implementa Angular con la finalidad de crear una interfaz de usuario capaz de consumir recursos de la API.
 
-## Code scaffolding
+(Descripción del proyecto)
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Inicialización del proyecto
 
-## Build
+A continuación se detallan los pasos a seguir para arrancar la aplicación.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. > git clone https://github.com/miguelangelro/EA-Minimo-Frontend.git
+ > 
+2. > cd EA-Minimo-Frontend
+ > 
+3. > npm install
+ > 
+4. > npm start 
 
-## Running unit tests
+Una vez ejecutado el paso 4 se abrirá una pestaña en el navegador web automáticamente, si no es así, entra en la dirección http://localhost:4200/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Hace falta arrancar la aplicación del [servidor](https://github.com/miguelangelro/EA-Minimo-Backend) siguiendo los pasos que se detallan en el apartado de inicialización del proyecto.
