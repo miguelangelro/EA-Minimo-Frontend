@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   }
   delete(id){
     this.seguimientoPacienteService.deleteSeguimiento(id).subscribe(async data =>{
-      this.router.navigateByUrl('/home');
+      window.location.reload();
     })
   }
 }
